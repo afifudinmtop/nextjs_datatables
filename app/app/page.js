@@ -16,6 +16,10 @@ import JSZip from "jszip"; // For Excel export
 import PDFMake from "pdfmake"; // For PDF export
 import apiData from "./apiData";
 
+import pdfMake from "pdfmake/build/pdfmake";
+import pdfFonts from "pdfmake/build/vfs_fonts";
+pdfMake.vfs = pdfFonts.pdfMake.vfs;
+
 DataTable.Buttons.jszip(JSZip);
 DataTable.Buttons.pdfMake(PDFMake);
 
