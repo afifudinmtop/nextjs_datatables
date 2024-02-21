@@ -1,0 +1,44 @@
+div.dt-container .dt-paging .dt-paging-button.current,
+div.dt-container .dt-paging .dt-paging-button.current:hover {
+  color: white !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  border-radius: 0.25rem !important;
+  background-color: #3f6212 !important;
+  border: none !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button:hover {
+  color: white !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  border-radius: 0.25rem !important;
+  background-color: #4d7c0f !important;
+  background: #4d7c0f !important;
+  border: none !important;
+}
+
+.dt-paging-button.next,
+.dt-paging-button.previous {
+  display: none !important;
+}
+
+.dt-paging-button {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  border: none !important;
+}
+
+#tabel1_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
